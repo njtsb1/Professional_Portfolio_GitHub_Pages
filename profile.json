@@ -1,0 +1,129 @@
+{
+  "name": "Nivaldo J T S Beirão",
+  "photo": "https://avatars.githubusercontent.com/u/95108889?v=4",
+  "job": "Multimedia Editor and Digital Asset Manager - Freelance work on Audacity",
+  "location": "Registro - SP, Brazil",
+  "phone": "+55 13 99721-3207",
+  "email": "njtsb1@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name":"HTML",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+      },
+      {
+        "name":"CSS",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+      },
+      {
+        "name":"JavaScript",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+      },
+      {
+        "name":"React",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+      },
+      {
+        "name":"Angular",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+      },
+      {
+        "name":"Python",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
+      },
+      {
+        "name":"Java",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name":"MySQL",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png"
+      },
+      {
+        "name":"MongoDB",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"},
+      {
+        "name":"PostgreSQL",
+        "logo":"https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      }
+    ],
+    "softSkills": [
+    "Critical Thinking",
+    "Analytical Thinking",
+    "Teamwork",
+    "Flexibility",
+    "Organization"
+]
+  },
+  "languages": [
+    "Brazilian Portuguese",
+    "English (beginner)",
+    "Spanish (beginner)"
+  ],
+  "portfolio": [
+    {
+        "name":"Creating a Pokédex with JavaScript",
+        "url":"https://github.com/njtsb1/Building_Pok-dex_with-_JS",
+        "github":true
+    },
+    {
+        "name":"How to Create Your Online Resume with HTML and GitHub Pages",
+        "url":"https://github.com/njtsb1/CV_HTML_GitHub_Pages",
+        "github":true
+    }
+  ],
+  "educationExperience": [
+    {
+        "name":"Multimedia Editor and Digital Asset Manager / Digital Innovation One",
+        "period":"2021 - present",
+        "description":"Largest open IT education platform in Latin America, with over 1 million users. DIO partners with innovative companies, providing immersive learning experiences focused on employability. Main certifications are listed below."
+    },
+    {
+        "name":"MBA in Information Technology Management and Governance / Vale Do Ribeira University Center (Univr)",
+        "period":"2017 - 2018",
+        "description":"Focus on governance frameworks, technology compliance, and strategic IT asset management. Developed skills in systems auditing, information security, and aligning technology with business objectives."
+    },
+    {
+        "name":"Bachelor's Degree in Business Administration / Vale Do Ribeira University Center (Univr)",
+        "period":"2010 - 2017",
+        "description":"Solid background in organizational management, administrative processes, applied law, and finance. Focused on developing a systemic vision and process analysis for operational efficiency."
+    }
+  ],
+  "professionalExperience": [
+    {
+        "name":"Multimedia Editor and Digital Asset Manager / Freelance work on Audacity",
+        "period":"2023 - present",
+        "description":"Grateful for the opportunity to refine my skills in digital process management, data governance, and strategic use of artificial intelligence."
+    },
+    {
+        "name":"Risk Analyst and Market Intelligence / Freelance work on Betfair",
+        "period":"2021",
+        "description":"Thankful for the opportunity to develop strong skills in statistical analysis, GRC, and risk management in volatile markets."
+    },
+    {
+        "name":"Administrative Assistant / Vale Do Ribeira University Center (Univr)",
+        "period":"2016 - 2019",
+        "description":"Grateful for the opportunity to improve competencies in educational data governance, technical support, and process management."
+    },
+    {
+        "name": "Business Administration Intern - Regional Education Unit of Registro / FDE",
+        "period": "2014 - 2016",
+        "description": "It was a privilege to spend incredible years alongside wonderful people, dedicating myself to supporting students, interns, and volunteers across several school units."
+    },
+    {
+        "name": "Business Administration Intern - Regional Education Unit of Miracatu / FDE",
+        "period": "2011 - 2013",
+        "description": "Grateful for the opportunity to be part of this fantastic team and to have contributed to transforming many lives, an experience I keep as one of the most remarkable in my career."
+    },
+    {
+        "name": "Clerk - Cashier / Bradesco Bank",
+        "period": "2009 - 2011",
+        "description": "Grateful for the opportunity to improve skills in financial management, GRC, and operational excellence."
+    },
+    {
+        "name": "Operations and Sales Assistant (Retail) / Tio Beba Supermarkets",
+        "period": "2009 - 2011",
+        "description": "Grateful for the opportunity to develop valuable skills in operational management and customer service."
+    }
+  ]
+}
