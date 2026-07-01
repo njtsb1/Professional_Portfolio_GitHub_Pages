@@ -1,0 +1,97 @@
+# System / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+.pnp.*
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vite/
+public/build/
+
+# Environments and secrets
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+.env.test
+secrets.json
+*.key
+*.pem
+
+# Logs and test coverage
+logs/
+*.log
+coverage/
+coverage-final.json
+nyc_output/
+
+# Bundlers / caches
+.cache/
+.cache-loader/
+.eslintcache
+rollup.cache
+/.parcel-cache
+
+# Generated files and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+
+# Temporary images and assets
+*.psd
+*.ai
+*.sketch
+
+# Documents and exports
+*.pdf
+*.docx
+*.xlsx
+
+# CI / deployment tools
+.vercel/
+.netlify/
+firebase-debug.log
+firebase/
+
+# Local control system
+*.local
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Mac / Windows specific
+Icon?
+ehthumbs.db
+
+# Others
+coverage/
+reports/
+.idea/
+.vscode/
+*.iml
+
+# /docs/
+# /gh-pages/
