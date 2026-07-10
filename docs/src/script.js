@@ -6,7 +6,7 @@ const qs = sel => document.querySelector(sel);
 
 async function fetchProfile(){
   try{
-    const res = await fetch('profile.json');
+    const res = await fetch('/profile.json');
     if(!res.ok) throw new Error('profile.json not found');
     return await res.json();
   }catch(e){
