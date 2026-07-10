@@ -7,16 +7,16 @@ Static portfolio for publishing on **GitHub Pages**. Educational project to prac
 
 - Dark / Light theme (dark default) with moon/sun icons.
 - Multilanguage UI: **EN (default)**, **PT-BR**, **ES**.
-- No backend required — all data embedded in `script.js`.
+- No backend required - all data embedded in `script.js`.
 - Semantic HTML, ARIA attributes, keyboard support (Esc closes panels).
 - Responsive layout for desktop / tablet / mobile.
 - Lightweight CSS animations and transitions.
 
 ## Technologies used
 
-- **HTML**` — main page.
-- **CSS** — styles and theme variables.
-- **JavaScript** — profile data, translations, UI logic.
+- **HTML**` - main page.
+- **CSS** - styles and theme variables.
+- **JavaScript** - profile data, translations, UI logic.
 
 ## How to publish to GitHub Pages
 
