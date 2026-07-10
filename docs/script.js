@@ -6,20 +6,17 @@ const el = id => document.getElementById(id);
 async function fetchProfile(){
   const candidates = [
     './profile.json',
-    '../profile.json',
-    '/profile.json',
     './public/profile.json',
-    '../public/profile.json'
+    '/profile.json',
+    '../profile.json'
   ];
-  for(const path of candidates){
-    try{
-      const res = await fetch(path, {cache: "no-store"});
-      if(!res.ok) continue;
-      const json = await res.json();
-      console.info('Loaded profile from', path);
-      return json;
-    }catch(e){
-      // try next
+  for (const path of candidates) {
+    try {
+      const res = await fetch(path, { cache: 'no-store' });
+      if (!res.ok) continue;
+      return await res.json();
+    } catch (e) {
+      // try next path
     }
   }
   console.error('profile.json not found in expected locations');
