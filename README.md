@@ -37,7 +37,7 @@ Static portfolio for publishing on **GitHub Pages**. Educational project to prac
 - Panels can be closed with `Esc`.
 - Contrast designed for readability in dark mode.
 
-![Screenshot](/img/profile.png)
+![Screenshot](/docs/public/profile.png)
 
 [LICENSE](/LICENSE)
 
