@@ -14,7 +14,7 @@ Static portfolio for publishing on **GitHub Pages**. Educational project to prac
 
 ## Technologies used
 
-- **HTML**` - main page.
+- **HTML** - main page.
 - **CSS** - styles and theme variables.
 - **JavaScript** - profile data, translations, UI logic.
 
