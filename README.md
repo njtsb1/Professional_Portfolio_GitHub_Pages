@@ -5,18 +5,18 @@ Static portfolio for publishing on **GitHub Pages**. Educational project to prac
 
 ## Features
 
-- **Dark/Light** mode (default dark) with moon/sun icon.
-- Multilingual: **EN (default)**, **PT-BR**, **ES**.
-- Responsive layout for desktop/tablet/smartphone.
-- Accessibility: roles, aria-attributes, keyboard support (Esc closes panels).
-- Lightweight animations and CSS transitions.
+- Dark / Light theme (dark default) with moon/sun icons.
+- Multilanguage UI: **EN (default)**, **PT-BR**, **ES**.
+- No backend required — all data embedded in `script.js`.
+- Semantic HTML, ARIA attributes, keyboard support (Esc closes panels).
+- Responsive layout for desktop / tablet / mobile.
+- Lightweight CSS animations and transitions.
 
-## Technologies used and file structure
+## Technologies used
 
-- **HTML** - main page.
-- **CSS** - styles and theme.
-- **JavaScript** - logic: loading `profile.json`, theme, language, accordion.
-- **.JSON** - profile data (name, photo, contacts, skills, portfolio).
+- **HTML**` — main page.
+- **CSS** — styles and theme variables.
+- **JavaScript** — profile data, translations, UI logic.
 
 ## How to publish to GitHub Pages
 
@@ -25,17 +25,32 @@ Static portfolio for publishing on **GitHub Pages**. Educational project to prac
 3. Go to **Settings → Pages** and select the `main` branch and root `/`.
 4. Wait for the deployment and open the provided URL.
 
-## Quick customization
+## Quick Customization
 
-- Update `profile.json` with your data.
-- Replace the `photo` image with a public URL (GitHub avatar, Imgur, etc.).
-- Add/edit projects in `portfolio` in `profile.json`.
+- Edit the `PROFILE` object in `script.js` to update name, photo, job, skills, languages, portfolio and experience.
+- Replace `public/profile.png` with your image or change `PROFILE.photo` to a public URL.
+- Add translations inside the `PROFILE` object (per-item `translations` are supported for experience and skills).
 
 ## Accessibility notes
 
 - Buttons have `aria-expanded` and `aria-pressed`.
 - Panels can be closed with `Esc`.
 - Contrast designed for readability in dark mode.
+
+## How to publish on GitHub Pages
+
+1. Create a repository on GitHub and push these files to the `main` branch.
+2. Option B (docs): move `index.html`, `style.css`, `script.js` and `public/` into a `docs/` folder and in **Settings → Pages** choose **Branch: main** and **Folder: /docs**.
+3. Wait for the deployment and open the provided URL.
+
+## Local testing
+
+Use a local static server to test (recommended):
+
+- VS Code Live Server extension
+- or `npx http-server` and open `http://localhost:8080`
+
+Opening `index.html` via `file://` may block some features in some browsers.
 
 ![Screenshot](/docs/public/profile.png)
 

@@ -3,59 +3,57 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Nivaldo Beirão — Portfolio</title>
-  <link rel="stylesheet" href="/docs/style.css" />
-  <meta name="description" content="Portfolio de Nivaldo J T S Beirão — Multimedia Editor & Digital Asset Manager" />
+  <title>Nivaldo Beirão — Professional Portfolio</title>
+  <meta name="description" content="Static portfolio to practice HTML5, CSS3 and JavaScript with accessibility and responsiveness." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body class="theme-dark" data-lang="en">
   <header class="topbar" role="banner">
-    <div class="brand">
-      <button id="themeToggle" aria-label="Toggle theme" title="Toggle theme" class="icon-btn" aria-pressed="true">
+    <div class="controls">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" aria-pressed="true" title="Toggle theme">
         <span id="themeIcon" aria-hidden="true">🌙</span>
       </button>
 
-      <div class="lang-switch" role="navigation" aria-label="Language switch">
-        <label for="langSelect" class="visually-hidden">Language</label>
-        <select id="langSelect" aria-label="Select language">
-          <option value="en">English (EN)</option>
-          <option value="pt-BR">Português (PT-BR)</option>
-          <option value="es-ES">Español (ES)</option>
-        </select>
-      </div>
+      <label for="langSelect" class="visually-hidden">Select language</label>
+      <select id="langSelect" aria-label="Select language">
+        <option value="en">English (EN)</option>
+        <option value="pt-BR">Português (PT-BR)</option>
+        <option value="es-ES">Español (ES)</option>
+      </select>
     </div>
   </header>
 
-  <main id="app" class="container" role="main">
+  <main class="layout" role="main">
     <aside class="card profile" aria-labelledby="profileName">
-      <img id="avatar" class="avatar" src="" alt="" />
-      <h1 id="profileName" class="name"></h1>
-      <p class="job" id="job"></p>
-      <p class="meta" id="location"></p>
-      <p class="meta" id="contact"></p>
-      <nav class="accordion" aria-label="Sections">
-        <button class="accordion-btn" data-target="skills" aria-expanded="false">Skills</button>
-        <div id="skills" class="panel" hidden></div>
+      <img id="avatar" class="avatar" src="public/profile.png" alt="Profile photo" />
+      <h1 id="profileName" class="name">Name</h1>
+      <p id="job" class="job">Job</p>
+      <p id="location" class="meta">Location</p>
+      <p id="contact" class="meta">Contact</p>
 
-        <button class="accordion-btn" data-target="languages" aria-expanded="false">Languages</button>
-        <div id="languages" class="panel" hidden></div>
+      <nav class="accordion" aria-label="Profile sections">
+        <button id="btnSkills" class="accordion-btn" data-target="skills" aria-expanded="false">Skills</button>
+        <div id="skills" class="panel" hidden tabindex="-1"></div>
 
-        <button class="accordion-btn" data-target="portfolio" aria-expanded="false">Portfolio</button>
-        <div id="portfolio" class="panel" hidden></div>
+        <button id="btnLanguages" class="accordion-btn" data-target="languages" aria-expanded="false">Languages</button>
+        <div id="languages" class="panel" hidden tabindex="-1"></div>
 
-        <button class="accordion-btn" data-target="experience" aria-expanded="false">Professional Experience</button>
-        <div id="experience" class="panel" hidden></div>
+        <button id="btnPortfolio" class="accordion-btn" data-target="portfolio" aria-expanded="false">Portfolio</button>
+        <div id="portfolio" class="panel" hidden tabindex="-1"></div>
+
+        <button id="btnExperience" class="accordion-btn" data-target="experience" aria-expanded="false">Professional Experience</button>
+        <div id="experience" class="panel" hidden tabindex="-1"></div>
       </nav>
     </aside>
 
     <section class="content" aria-live="polite">
-      <h2 class="sr-only">Portfolio details</h2>
-      <div id="hero" class="hero">
-        <p id="intro"></p>
-      </div>
+      <header class="hero" id="hero">
+        <p id="intro">Intro text</p>
+      </header>
 
       <section id="projects" class="projects" aria-labelledby="projectsTitle">
-        <h3 id="projectsTitle">Projects</h3>
-        <ul id="projectsList" class="project-list"></ul>
+        <h2 id="projectsTitle">Projects</h2>
+        <ul id="projectsList" class="project-list" aria-live="polite"></ul>
       </section>
     </section>
   </main>
@@ -64,6 +62,6 @@
     <small>&copy; <span id="year"></span> <span id="footerName"></span></small>
   </footer>
 
-  <script src="/docs/script.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
